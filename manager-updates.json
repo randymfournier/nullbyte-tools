@@ -1,8 +1,8 @@
 {
     "schemaVersion":  1,
     "productId":  "NullByte.ModManager",
-    "version":  "0.4.8.2",
-    "downloadUrl":  "https://github.com/randymfournier/nullbyte-tools/releases/download/mod-manager-v0.4.8.2/NullByteModManager-v0.4.8.2-win-x64.zip",
-    "sha256":  "196D3AE76D6781CC33A31FFEFD21A959A1CEF35C1F318847B0D9309F184526AD",
-    "releaseNotes":  "# NullByte Mod Manager v0.4.8.2\n\n**Windows installation and uninstall improvements**\n\n- Installed builds appear in Windows Settings \u003e Apps \u003e Installed apps with their current version.\n- Uninstall directly from Windows Settings, without manually deleting folders.\n- During uninstall, choose whether to also remove saved Mod Manager settings and logs. The default is to preserve them.\n- Stardew Valley saves and installed mods are never removed by the uninstaller.\n- Existing users who update from v0.4.8.1 receive the Windows uninstall registration without reinstalling.\n\nThe mod library, update feeds and GitHub publishing process are unchanged.\n"
+    "version":  "0.4.8.3",
+    "downloadUrl":  "https://github.com/randymfournier/nullbyte-tools/releases/download/mod-manager-v0.4.8.3/NullByteModManager-v0.4.8.3-win-x64.zip",
+    "sha256":  "F91B88FAA6D36CAF1E23763720368744C425CB9B7C5597C75FB9D09EE024101D",
+    "releaseNotes":  "# NullByte Mod Manager v0.4.8.3\n\n## Self-update validation release\n\n- Shows the installed application version directly on the existing **App updates** sidebar button, so you can confirm a successful in-place upgrade without opening About or adding a new panel.\n- Keeps the application-update publishing configuration unchanged when the correct feed URL is already present, avoiding unnecessary modified `app-update-source.json` files in the private development repository.\n- Carries forward the Windows install/uninstall support, dedicated external updater, checksum-verified GitHub releases, and verified public-feed publishing/recovery scripts from v0.4.8.2.\n\n**Testing objective:** upgrade an installed v0.4.8.2 application to v0.4.8.3 through its own App updates button. Do not run the v0.4.8.3 installer for this test.\n"
 }
