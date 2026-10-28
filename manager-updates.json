@@ -1,8 +1,8 @@
 {
-  "schemaVersion": 1,
-  "productId": "NullByte.ModManager",
-  "version": "0.4.8.1",
-  "downloadUrl": "https://github.com/randymfournier/nullbyte-tools/releases/download/mod-manager-v0.4.8.1/NullByteModManager-v0.4.8.1-win-x64.zip",
-  "sha256": "6596FE6875D0FEABE209841619480107544CEA1B06A172903AA8ADA44AE75531",
-  "releaseNotes": "v0.4.8.1 fixes CS0201 compilation errors in Mod Manager and the external updater."
+    "schemaVersion":  1,
+    "productId":  "NullByte.ModManager",
+    "version":  "0.4.8.2",
+    "downloadUrl":  "https://github.com/randymfournier/nullbyte-tools/releases/download/mod-manager-v0.4.8.2/NullByteModManager-v0.4.8.2-win-x64.zip",
+    "sha256":  "196D3AE76D6781CC33A31FFEFD21A959A1CEF35C1F318847B0D9309F184526AD",
+    "releaseNotes":  "# NullByte Mod Manager v0.4.8.2\n\n**Windows installation and uninstall improvements**\n\n- Installed builds appear in Windows Settings \u003e Apps \u003e Installed apps with their current version.\n- Uninstall directly from Windows Settings, without manually deleting folders.\n- During uninstall, choose whether to also remove saved Mod Manager settings and logs. The default is to preserve them.\n- Stardew Valley saves and installed mods are never removed by the uninstaller.\n- Existing users who update from v0.4.8.1 receive the Windows uninstall registration without reinstalling.\n\nThe mod library, update feeds and GitHub publishing process are unchanged.\n"
 }
